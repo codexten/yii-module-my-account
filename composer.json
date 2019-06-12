@@ -1,5 +1,5 @@
 {
-  "name": "codexten/yii-module-myaccount",
+  "name": "codexten/yii-module-my-account",
   "description": "codexten,yii,myaccount",
   "keywords": [
     "eii"
@@ -10,16 +10,15 @@
   },
   "autoload": {
     "psr-4": {
-      "codexten\\yii\\modules\\myaccount\\": "src"
+      "codexten\\yii\\modules\\my\\account\\": "src"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
-      "userSettings": "config/userSettings.php",
-      "migrationNamespaces": "config/migrationNamespaces.php"
+    "config-plugin": {
+      "moduleMyAccount": "config/moduleMyAccount.php"
     }
   }
 }
