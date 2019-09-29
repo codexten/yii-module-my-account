@@ -4,10 +4,10 @@ namespace codexten\yii\modules\my\account\controllers;
 
 use codexten\yii\modules\auth\helpers\UserHelper;
 use codexten\yii\modules\my\account\models\ProfileInterface;
-use codexten\yii\web\Controller;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\Model;
+use yii\web\Controller;
 
 class ProfileController extends Controller
 {
